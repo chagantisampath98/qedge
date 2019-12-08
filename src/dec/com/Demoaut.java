@@ -1,11 +1,8 @@
 package dec.com;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 public class Demoaut {
-
-	public static void main(String[] args) throws Throwable {
+public static void main(String[] args) throws Throwable {
 		ChromeDriver driver = new ChromeDriver();
 		driver.navigate().to("http://newtours.demoaut.com");
 		driver.manage().window().maximize();
