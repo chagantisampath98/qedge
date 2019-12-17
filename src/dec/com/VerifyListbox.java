@@ -35,6 +35,7 @@ public class VerifyListbox {
 		else {
 			System.out.println("item that is required doesnot exists! ::"+expected);
 		}
+		driver.close();
 	}
 
 }
